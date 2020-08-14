@@ -1,0 +1,31 @@
+cyclomatic_complexity: 12
+file_length:
+    warning: 500
+    error: 1200
+function_body_length: 20
+function_parameter_count: 5
+weak_delegate: error
+line_length:
+    warning: 160
+    ignores_comments: true
+type_body_length:
+    - 300 # warning
+    - 400 # error
+force_cast: warning # implicitly
+force_try:
+  severity: warning # explicitly
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+    - Carthage
+    - Pods
+    - SuperheroTests/Mocks
+variable_name:
+  min_length:
+    error: 1
+    warning: 1
+  excluded:
+    - N
+
+disabled_rules:
+  - valid_docs
+
+custom_rules:

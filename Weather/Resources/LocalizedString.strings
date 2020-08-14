@@ -1,0 +1,17 @@
+/* 
+  LocalizedString.strings
+  weather
+
+  Created by Innocent Magagula on 2020/08/14.
+  Copyright © 2020 Innocent Magagula. All rights reserved.
+*/
+
+"ok" = "OK";
+"error.title" = "Error";
+"error.unknown" = "An unknow error occured";
+"forecast" = "Forecast";
+"weather" = "Weather";
+"server.resoinse" = "Server Response";
+"error.location" = "Location Error";
+"location.permision.required" = "Location permission are required, please enable location permission in device settings";
+"retry" = "Retry";
